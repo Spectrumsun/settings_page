@@ -22,9 +22,9 @@
     }
 
     li {
-      @apply flex content-center list-none p-2 font-medium text-gray-700;
+      @apply flex content-center list-none p-2 font-medium text-gray-700 hover:bg-gray-100;
     }
-
+    
     span {
       @apply ml-5;
     }

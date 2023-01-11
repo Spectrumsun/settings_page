@@ -44,20 +44,30 @@ const Setting = () => {
           <p className="font-light text-xs mb-5 text-gray-500">Where should invoices be sent?</p>
         </div>
         <div>
-         <input type="radio" id="email" name="default_email" value="olivia@untitledui.com" />
-         <label for="html">Send to my account email</label><br />
-          <p className="font-light text-xs ml-5 mb-5 text-gray-500">olivia@untitledui.com</p>
-
-         <input type="radio" id="email" name="alternative_email" checked="checked"  value="biling@untitledui.com" />
-         <label for="html">Send to an alternative email</label><br />
-          <div className="ml-5 setting__email">
-            <Email />
-            <p className="font-light text-xs ml-3">biling@untitledui.com</p>
+          <div className="flex">
+            <input type="radio" id="email" name="default_email" value="olivia@untitledui.com" />
+            <span className="ml-2">
+              <label for="html">Send to my account email</label><br />
+              <p className="font-light text-xs mb-5 text-gray-500">olivia@untitledui.com</p>
+            </span>
           </div>
+
+          <div className="flex">
+            <input type="radio" id="email" name="alternative_email" checked="checked"  value="biling@untitledui.com" />
+            <span className="ml-2">
+                <label for="html">Send to an alternative email</label><br />
+              <div className="setting__email mt-3">
+                <Email />
+                <p className="font-light text-xs ml-3">biling@untitledui.com</p>
+              </div>
+            </span>
+          </div>
+ 
+        
 
         </div>
       </div>
-      <hr className="mt-10 mb-10"/>
+      <hr className="mt-5 mb-5"/>
 
       <div className="setting__pay flex w-full pl-5 md:pl-0 pr-5 md:pr-0">
         <div className="mr-20">
@@ -91,7 +101,7 @@ const Setting = () => {
           <p className="mt-5 text-gray-400">+ Add payment method</p>
         </div>
       </div>
-      <div className="mt-20 mb-5 pl-5 md:pl-0 pr-5 md:pr-0">
+      <div className="mt-10 mb-5 pl-5 md:pl-0 pr-5 md:pr-0">
         <div className="flex justify-between flex-col md:flex-row">
           <p>Billing History</p>
           <button className="flex p-3 setting__email justify-between items-center !w-max mt-5 md:mt-0">
