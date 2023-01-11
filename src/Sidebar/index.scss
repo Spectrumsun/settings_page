@@ -39,7 +39,7 @@
       @apply flex justify-between w-full items-baseline;
     }
     &-count{
-      background: #F9FAFC;
+      @apply flex rounded-tl-3xl bg-gray-100 px-1;
       border-radius: 50%;
     }
   }
