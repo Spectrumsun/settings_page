@@ -1,5 +1,5 @@
-# Phone 
-A simple settings page 
+
+#A simple settings page 
 
 #![Screenshot 2023-01-11 at 13 55 56](https://user-images.githubusercontent.com/20597418/211812117-35c81270-2574-46f5-95c3-b5ffda25f386.png) 
 
